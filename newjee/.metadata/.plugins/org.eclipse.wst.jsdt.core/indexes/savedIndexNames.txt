@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\Divers\esisa\3eme annee\java s2\newjee\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+783895558.index
+3756868289.index
+480601737.index
+1933028735.index
+2450629458.index
+3825164325.index
+3287435940.index

@@ -1,0 +1,64 @@
+function Stock() {
+	this.Entrprise = [];
+	this.EntrpriseParId = [];//tableau associative
+	this.EntrpriseParnom = [];//tableau associative
+	this.EntrpriseParville = [];//tableau associative
+
+}
+
+Stock.prototype.add = function(p) {
+	if(this.EntrpriseParId[p.id] == undefined){
+		this.Entrprise.push(p);
+		this.EntrpriseParId[p.id] = p;
+		this.EntrpriseParnom[p.nom]=p;
+		this.EntrpriseParville[p.ville]=p;
+		return true;
+	}
+	else{
+		alert("Entreprise déja exist");
+		return false;
+	}
+}
+Stock.prototype.del = function(row,id,nom,ville) {
+		
+		this.Entrprise.splice(this.EntrpriseParId[id],1);
+		this.EntrpriseParId.splice(id,1);
+		this.EntrpriseParnom.splice(nom,1);
+		//this.EntrpriseParvilles.splice(ville,1);
+		deleteRow(row);
+		alert("Entreprise a ete supprimee");
+		
+	
+
+}
+Stock.prototype.searchbyID = function(key) {
+	deleteallrows_byid();
+	for(var i=0 ;i<size();i++){
+		if(this.EntrpriseParId[key].id==key)
+			{
+			addSearchId(0);
+			}
+	}
+		
+	
+}
+	
+
+Stock.prototype.get = function(index) {
+	return this.Entrprise[index];
+}
+
+Stock.prototype.getById = function(id) {
+	return this.EntrpriseParId[id];
+}
+Stock.prototype.getByNom = function(nom) {
+	return this.EntrpriseParnom[nom];
+}
+Stock.prototype.getByVille = function(ville) {
+	return this.EntrpriseParville[ville];
+}
+Stock.prototype.size = function() {
+	return this.Entrprise.length;
+}
+
+var stock = new Stock();

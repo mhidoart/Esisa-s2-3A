@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+D:\Divers\esisa\3eme annee\java s2\java_ee\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+583981720.index
+391189245.index
+2062954911.index
+1362269482.index
+449384428.index
+3825164325.index
+3275118742.index
+1342055493.index
+3412222002.index
+2216220526.index

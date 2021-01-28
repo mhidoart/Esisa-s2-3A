@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>emploie du temps</title>
+<link rel="stylesheet" type="text/css" href="css/emploie.css">
+</head>
+<body>
+<div class="ButtonPanel">
+				<button onclick="myFunction()">theme 1</button>
+				<button onclick="myFunction1()">theme 2</button>
+	</div>
+	<h1>emploie du temps du groupe: A :</h1>
+	<div align="center" class="table1 tr1" id="table1">
+		<table border="1" >
+		<tr class="schedule_header">
+		<th colspan="1"  ></th>
+		<th colspan="1">8:30 - 9:30</th>
+		<th colspan="1">9:30 - 10:30</th>
+		<th colspan="1">10:30 - 11:30</th>
+		<th colspan="1">11:30 - 12:30</th>
+		<th colspan="1">13:30 - 14:30</th>
+		<th colspan="1">14:30 - 15:30</th>
+		<th colspan="1" >15:30 - 16:30</th>
+		<th colspan="1">16:30 - 17:30</th>
+		<th colspan="1">17:30 - 18:30</th>
+		<th colspan="1">18:30 - 19:30</th>
+		</tr>
+		<tr>
+			<td	> Lundi </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td colspan="3" > Administration Linux (Salle 1)</td>
+		</tr>
+		<tr>
+			<td> Mardi</td>
+			<td colspan="2"> Analyse de donnees 2 (salle 10) </td>
+			<td colspan="2"> CCNA 1/2 (salle1)</td>
+			<td colspan="3"> Language java (salle 9)</td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+		
+		</tr>
+		<tr>
+		
+			<td> Mercredi</td>
+			<td colspan="2"> Language C# (Salle 7) </td>
+			<td colspan="2"> </td>
+			<td colspan="3"> Reseau (salle 7)</td>
+			<td colspan="2"> UML (salle 10)</td>
+			<td> </td>
+		
+		</tr>
+		<tr>
+			<td> Jeudi</td>
+			<td colspan="2"> Presentation du stage (salle1)</td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td colspan="3"> Systeme d'information (salle1)</td>
+			<td> </td>
+			<td> </td>
+		
+		</tr>
+		<tr>
+			<td> Vendredi</td>
+			<td colspan="2"> Compilation (salle1)</td>
+			<td colspan="2"> Language C# (salle 9) </td>
+			<td> </td>
+			<td colspan="2"> BI (salle 7) </td>
+			<td colspan="2"> Dev  Web (salle 1)</td>
+			<td></td>
+		
+		</tr>
+		<tr>
+			<td> Samedi</td>
+			<td colspan="11"> personal responsibilities
+		
+		</tr>
+		</table>
+
+		<script>
+			function myFunction() {
+				var element = document.getElementById("table1");
+				element.classList.toggle("table2");
+			}
+			function myFunction1() {
+				var element = document.getElementById("table1");
+				element.classList.toggle("table3");
+			}
+			
+		</script>
+	</div>
+
+</body>
+</html>

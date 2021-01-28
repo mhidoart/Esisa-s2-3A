@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/Component.css">
+<script type="text/javascript" src="js/Entreprise.js"></script>
+<script type="text/javascript" src="js/Actions.js"></script>
+<script type="text/javascript" src="js/Menu.js"></script>
+<script type="text/javascript" src="js/view.js"></script>
+<script type="text/javascript">
+	function main() {
+		menu=new Menu("Stock");
+		ajoute_ste(new Actions("r001","hsna.py","fuska"));
+		ajoute_ste(new Actions("r002","mehdi.py","fuska"));
+	}
+
+</script>
+</head>
+<body onload="main()">
+	<div class="Menu">
+		<span onclick="menu.show('NouveauSte')">Nouveau ste</span>
+		<span onclick="menu.show('Stock')"">Stock</span>
+		<span onclick="menu.show('Vente')">Ventes</span>
+		<span onclick="menu.show('Facture')"">Factures</span>
+	</div>
+	<form  class="Form Hidden" id="NouveauSte">
+	
+	<header> Nouveau ste</header>
+	
+	<div class="Field">
+		<label for="id_ste">id :</label>
+	<input type="text" size="15" name="id" id="id_ste" />
+	</div>
+	
+	<div class="Field">
+		<label for="nom">nom :</label>
+	<input type="text" size="30" name="id" id="nom" />
+	</div>
+	<div class="Field">
+		<label for="ville">ville :</label>
+	<input type="text" size="10" name="id" id="ville" />
+	</div>
+
+	
+	
+	<div class="ButtonPanel" >
+		<input type="button" value="Valider" onclick="ajoute_ste()"/>
+		<button>Annuler</button>
+		</div>
+	</form>
+	<div class="Panel" id="Stock">
+		<header>Stock</header>
+		<div class="Table">
+		<table id="ste_table">
+			<tr>
+			<td>id</td><td>nom</td><td>ville</td>
+			</tr>
+		</table>
+		</div>
+	</div>
+	<div class="Panel Hidden" id="Vente">
+		<header>Vente</header>
+		<div>
+		Date: <input type="date" value="2019-03-15" id="Vente-date"/>
+		Client: <input type="text" size="30"/>
+		<button class="Button" onclick="addTextBox()">Ajouter Produit</button>
+		<div id="Vente-produits">
+		<div class="Textbox" >
+			<div id="Vente-desig-0"></div>
+			<div id="Vente-pu-0"></div>
+				<input type="text" size="10" id="Vente-ref-0" onkeyup="chercherProduit(0)" placeholder="ref du  produits"/>
+				<input type="text" size="10" id="Vente-q-0"  placeholder="Quantité"/>
+		
+		</div>
+		</div>
+		</div>
+	</div>
+	<div class="Panel Hidden" id="Facture">
+		<header>Facture</header>
+		<div>
+		
+		</div>
+	</div>
+	
+	
+</body>
+</html>

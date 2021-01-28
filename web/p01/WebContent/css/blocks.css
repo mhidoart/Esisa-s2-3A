@@ -1,0 +1,53 @@
+.Box1 > span{
+	border: solid 1px blue;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px gray;
+	margin: 10px;
+	padding: 10px;
+	width: 150px;
+	height: 150px;
+	
+	display: inline-block;
+}
+.ButtonPanel > *{
+	border: solid 1px blue;
+	border-radius: 10px;
+	box-shadow:3px 3px 5px gray;
+	margin: 5px;
+	padding: 5px;
+	min-width: 100px;
+	background-color: #ceb0d0;
+	font-family: Consolas;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	display: inline-block;
+	cursor: pointer;
+}
+.ButtonPanel > *:hover{
+	background-color: #fff0f0;
+	color: blue;
+	margin-right: 3px;
+	box-shadow:1px 1px 3px gray;
+	
+}
+.Box2{
+	display: flex;
+	flex-wrap:  wrap;
+	
+}
+.Box2 > *{
+	flex-basis: 0;
+	flex-grow: 1;
+	flex-shrink: 1;
+	border: solid 1px blue;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px gray;
+	margin: 10px;
+	padding: 10px;
+	min-width: 150px;
+	height: 150px;
+	
+	display: inline-block;
+	
+}

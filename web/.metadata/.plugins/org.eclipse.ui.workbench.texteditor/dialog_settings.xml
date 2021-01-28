@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="DeleteEntreprise" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="row.insertCell().innerHTML = p.id;"/>
+			<item value="DeleteEntreprise"/>
+			<item value="searchbyId"/>
+			<item value="actiona"/>
+			<item value="stock"/>
+			<item value="submit"/>
+			<item value="EntrpriseParRef"/>
+			<item value="produits"/>
+			<item value="livres"/>
+			<item value="Data"/>
+			<item value="addStockRow"/>
+			<item value="getByRef"/>
+			<item value="vente"/>
+			<item value="nouveau-produit"/>
+			<item value=".button"/>
+		</list>
+		<list key="replacehistory">
+			<item value="niggi"/>
+			<item value="EntrpriseParId"/>
+			<item value="Entrprise"/>
+			<item value="nouveau-Ste"/>
+			<item value="ste"/>
+			<item value="th"/>
+			<item value="class=&quot;titre3&quot;"/>
+			<item value="&lt;span class=&quot;retroshadow&quot;"/>
+			<item value=" span class=&quot;retroshadow&quot;"/>
+			<item value="flou1"/>
+			<item value="td"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="336" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="454" key="DIALOG_HEIGHT"/>
+		<item value="83" key="DIALOG_X_ORIGIN"/>
+		<item value="194" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

@@ -1,0 +1,5 @@
+/* classe de style */
+.Test{
+	background-color: navy;
+	color: white;
+}

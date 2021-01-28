@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/blocks.css">
+</head>
+<body>
+	<h1>Exemple 1 :</h1>
+	<div class="Box1">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+	</div>
+	<h1>Exemple 2 :</h1>
+	<div class="ButtonPanel">
+				<span>Enregistrer</span>
+				<span>Imprimer</span>
+				<span>valider</span>
+				<span>supprimer</span>
+				<span>annuler</span>
+	</div>
+	<h1>Exemple 3 :</h1>
+	<div class="Box2">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+	</div>
+</body>
+</html>

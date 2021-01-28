@@ -1,0 +1,36 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+.Header {
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+.Aside{
+	background-color: buttonface;
+	padding: 10px;
+	
+}
+
+.TableData1{
+	width: 100%;
+	border-collapse: collapse;
+	font-family: cursive;
+	
+}
+
+.TableData2{
+	width: 80%;
+	border-collapse: collapse;
+	font-family: Arial;
+	background-color: buttonface;
+	font-size: 18px;
+	margin-left: auto; /*sol 1*/
+	margin-right: auto;
+	
+}

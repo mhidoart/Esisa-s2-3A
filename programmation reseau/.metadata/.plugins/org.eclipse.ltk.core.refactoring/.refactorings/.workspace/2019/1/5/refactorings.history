@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 0 packages to &apos;TP_modeconnecter/src&apos;&#x0D;&#x0A;- Destination element: &apos;TP_modeconnecter/src&apos;" description="Copy packages" destination="=TP_modeconnecter/src" flags="589830" fragments="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1548858290401" version="1.0"/>
+</session>

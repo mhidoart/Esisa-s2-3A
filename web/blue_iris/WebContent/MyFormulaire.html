@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/MyForm.css" />
+</head>
+<body>
+
+	<form action="login.php" class="mainForm">
+		<div class="Field">
+		<label for="nom" >Nom :</label>
+	<input type="text" size="15" name="nom" id="nom" />
+	</div>
+		<div class="Field">
+			<label for="nom">Date de naissance :</label> <input type="text"
+				size="20" name="nom" id="nom" placeholder=" 28/03/1997"/>
+		</div>
+		<div class="Field">
+			<label for="nom">Tel :</label> <input type="text"
+				size="20" name="nom" id="nom" placeholder="+212X XX XX XX XX"/>
+		</div>
+		<div style="margin-left: 30px; font-weight: bolder;	color:#0000ff; ">
+			<input type="radio" name="gender" value="male" checked> Male
+			<input type="radio" name="gender" value="female"> Female
+		
+			<select style="margin-left: 70px;border-radius: 10px;
+	box-shadow: 1px 1px 3px gray;
+	font-family: Verdana;
+	font-size: 12px;
+	padding: 2px 10px 2px 10px; ">
+				<option value="0">Choisir une ville : </option>
+				<option value="1">fes</option>
+				<option value="2">casa</option>
+				<option value="3">meknes</option>
+				<option value="4">oujda</option>
+				<option value="5">nador</option>
+				<option value="6">bnsliman</option>
+				<option value="7">lfkih bn saleh</option>
+				<option value="8">jdida</option>
+			</select>
+		</div>
+		<div class="ButtonPanel" >
+		<input type="submit" value="Valider" />
+		<button>Annuler</button>
+		</div>
+	</form>
+		
+	</form>
+	
+
+</body>
+</html>

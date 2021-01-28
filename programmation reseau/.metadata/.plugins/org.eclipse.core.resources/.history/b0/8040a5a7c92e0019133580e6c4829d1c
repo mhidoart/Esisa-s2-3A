@@ -1,0 +1,9 @@
+package com.esisa.java.jdbc.dao;
+
+public class MYSQLDataSource {
+
+	public MYSQLDataSource() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

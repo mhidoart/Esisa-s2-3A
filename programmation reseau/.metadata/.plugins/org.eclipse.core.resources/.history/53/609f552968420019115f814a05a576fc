@@ -1,0 +1,52 @@
+package com.santa.swing;
+
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+
+import javax.swing.BoxLayout;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
+public class Chat extends JFrame{
+private JTextArea pave;
+private JTextField msg;
+	public Chat() {
+		// TODO Auto-generated constructor stub
+		exp01();
+		window();
+	}
+	void exp01() {
+		JPanel screen = new JPanel();
+		screen.setLayout(new BorderLayout());
+		JPanel header=new JPanel();
+		header.setLayout(new FlowLayout());
+		JLabel myip=new JLabel("ip de votre amie :");
+		JTextField txt1=new JTextField(16);
+		header.add(myip);
+		header.add(txt1);
+		screen.add("North",header);
+		
+		screen.add("Center",pave);
+		
+		JPanel south=new JPanel();
+		south.setLayout(new FlowLayout());
+		JLabel l1=new JLabel("Message : ");
+		JTextField txt2=new JTextField(50);
+		south.add(l1);
+		south.add(txt2);
+		screen.add("South",south);
+		
+	}
+	void window() {
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		pack();
+		setVisible(true);
+	}
+	public static void main(String[] args) {
+		new Chat();
+	}
+
+}

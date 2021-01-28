@@ -1,0 +1,37 @@
+/* classe de style */
+.Test{
+	background-color: navy;
+	color: white;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-left: solid 3px red;
+	padding: 10px;
+}
+article, .Panel{
+		border: solid 1px black;
+		margin: 20px;
+		padding: 10px;
+		border-radius: 10px;
+		box-shadow: 5px 5px 20px gray;
+}
+.Header{
+	font-family: Verdana;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 12px;
+	margin-bottom: 6px;
+	text-decoration: underline;
+}
+dt{
+	font-weight: bold;
+	color: blue;
+	font-family: Verdana;
+	font-size: 16px;
+}
+.Text{
+	font-family: cursive;
+	margin: 5px;
+	font-size: 14px;
+	text-align: justify;
+}

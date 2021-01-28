@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navigation Bar - Responsive</title>
+    <link rel="stylesheet" href="css/mhidocss.css" type="text/css">
+        <link rel="stylesheet" href="css/MyForms.css" type="text/css">
+    
+    <link rel = "stylesheet" type="text/css" href = "css/Component.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script type="text/javascript">
+    function main() {
+		menu = new Menu('stock');	
+    }
+    
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-wrapper">
+          
+            <nav>
+                <input class="hidden" type="checkbox" id="menuToggle">
+                <label class="menu-btn" for="menuToggle"> 
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                </label>
+                <div class="nav-container">
+                    <ul class="nav-tabs">
+                        <li class="nav-tab">Home</li>
+                        <li class="nav-tab">Add Products</li>
+                        <li class="nav-tab">List by id</li>
+                        <li class="nav-tab">List by nom</li>
+                        <li class="nav-tab">list by xi haju</li>
+                        <li class="nav-tab">Careers</li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="center"> 
+        
+		<div class="Ttbody">
+			<form>
+				<input type="text" name="name" placeholder="Full Name" required>
+				<input type="text" name="email" placeholder="Email" required
+					pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> 
+					<input type="password" name="password" placeholder="Password" required minlength="4">
+				<p>The password must be > 4 char</p>
+				<!-- You also can use only one input and use "pointer-events: none;", but you still can select it using tab -->
+				<input type="button" value="Valdier" onclick="ajouterProduit()">
+			</form>
+
+		</div>
+	</div> 
+    
+
+    
+</body>
+
+</html>

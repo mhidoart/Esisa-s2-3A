@@ -1,0 +1,16 @@
+package com.esisa.java.jdbc.dao;
+
+public class Client {
+
+	public Client() {
+		// TODO Auto-generated constructor stub
+		exp01();
+	}
+	void exp01() {
+		Database db=new Database("localhost", "biblio", "root", "");
+	}
+	public static void main(String[] args) {
+		new Client();
+	}
+
+}

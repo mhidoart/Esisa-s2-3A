@@ -1,0 +1,75 @@
+package com.santa.swing;
+
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
+import com.santa.server.gssss.Client;
+import com.santa.server.gssss.Server;
+
+public class Chat extends JFrame implements ActionListener{
+private JTextArea pave;
+private JTextField msg;
+	public Chat() {
+		// TODO Auto-generated constructor stub
+		exp01();
+		window();
+	}
+	void exp01() {
+		JPanel screen = new JPanel();
+		screen.setLayout(new BorderLayout());
+		JPanel header=new JPanel();
+		header.setLayout(new FlowLayout());
+		JLabel myip=new JLabel("ip de votre amie :");
+		JTextField txt1=new JTextField(16);
+		header.add(myip);
+		header.add(txt1);
+		screen.add("North",header);
+		pave=new JTextArea(30,50);
+		screen.add("Center",pave);
+		
+		JPanel south=new JPanel();
+		south.setLayout(new FlowLayout());
+		JLabel l1=new JLabel("Message : ");
+		msg=new JTextField(50);
+		south.add(l1);
+		south.add(msg);
+		JButton b=new JButton("envoyer");
+		b.addActionListener(this);
+		south.add(b);
+		screen.add("South",south);
+		setContentPane(screen);
+		Server s= new Server(80,pave);
+		s.start();
+	}
+	void window() {
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		pack();
+		setVisible(true);
+	}
+	public static void main(String[] args) {
+		new Chat();
+	}
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		JButton b=(JButton) e.getSource();
+		if(b.getText().equals("envoyer"))
+		{String message=msg.getText();
+			pave.append("me >> "+message+"\n");
+			msg.setText("");
+			//client
+			Client c=new Client();
+			c.connect_and_chat();
+		}
+	}
+
+}

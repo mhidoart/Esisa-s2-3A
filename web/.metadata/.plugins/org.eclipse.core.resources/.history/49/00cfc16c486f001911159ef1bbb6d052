@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	<link rel = "stylesheet" type="text/css" href = "css/Component.css" />
+	<script type="text/javascript" src="js/Produit.js"></script>
+	<script type="text/javascript" src="js/Stock.js"></script>
+	<script type="text/javascript" src="js/Facture.js"></script>
+	<script type="text/javascript" src="js/Actions.js"></script>
+	<script type="text/javascript" src="js/View.js"></script>
+	
+	<script type="text/javascript">
+		function main() {
+			menu = new Menu('stock');	
+			ajouterProduit(new Produit("R01","Clavier",250,10));
+			ajouterProduit(new Produit("R02","Ecran",300,5));
+			ajouterProduit(new Produit("R03","Souris",160,20));
+			
+			var d1 = new Date();
+			setValue("ventes-date", d1.getFullYear() + "-0" + (d1.getMonth() + 1) + "-" + d1.getDate());
+		}
+	</script>
+	
+</head>
+<body onload="main()">
+	<div class="Menu">
+		<span onclick="menu.show('nouveau-produit')">Nouveau produit</span>
+		<span onclick="menu.show('stock')">Stock</span>
+		<span onclick="menu.show('vente')">Ventes</span>
+		<span onclick="menu.show('facture')">Factures</span>
+	</div>
+	
+	<form class="Hidden" >
+	<input type="text" name="name" placeholder="Full Name" required>
+	<input type="email" name="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+	<input type="password" name="password" placeholder="Password" required minlength="4">
+	<p>The password must be > 4 char</p>
+  <!-- You also can use only one input and use "pointer-events: none;", but you still can select it using tab -->
+	<input type="submit" value="Register" disabled>
+	<input type="submit" value="Register">
+</form>
+	
+	<div class="Panel Hidden" id="vente">
+		<header>Ventes</header>
+		
+		<div>
+			Date : <input type="date" id="ventes-date">
+			Client : <input type="text" size="30">
+			<button class="Button" onclick="addTextBox()">Ajouter Produit</button>
+			<div id="ventes-produits">
+				<div class="TextBox">
+					<input type="text" id="ventes-ref-0" onkeyup="chercherProduit(0)"
+						placeholder="R�f�rence Produit" />
+					<div id="ventes-desig-0"></div>
+					<div id="ventes-pu-0"></div>
+					<input type="text" id="ventes-q-0" placeholder="Quantit�" />
+				</div>
+			</div> 
+		</div>		
+	</div>
+	
+	<div class="Panel" id="stock">
+		<header>Stock</header>
+		
+		<div class="Table">
+			<table  id="table-stock">
+				<tr>
+					<th>R�ference</th>	<th>D�signation</th>	<th>Prix</th> <th>Quantit�</th>
+				</tr>
+			</table>
+		</div>
+		
+	</div>
+	
+	<div class="Panel Hidden" id="facture">
+		<header>Factures</header>
+		
+		<div>
+			
+		</div>
+		
+	</div>
+	
+	
+</body>
+</html>

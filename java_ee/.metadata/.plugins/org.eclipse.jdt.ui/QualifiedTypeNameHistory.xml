@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
+<fullyQualifiedTypeName name="com.esisa.jee.dao.Database"/>
+<fullyQualifiedTypeName name="com.esisa.jee.dao.DataSource"/>
+<fullyQualifiedTypeName name="com.esisa.jee.dao.MYSQLDataSource"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.swing.event.DocumentListener"/>
+<fullyQualifiedTypeName name="com.esisa.jee.web.actions.biblioAction"/>
+<fullyQualifiedTypeName name="java.util.Hashtable"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="com.esisa.jee.dao.mappers.BiblioMapper"/>
+<fullyQualifiedTypeName name="com.esisa.jee.models.Document"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.esisa.jee.jdbc.DataSource"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.jdbc2.optional.MysqlDataSource"/>
+<fullyQualifiedTypeName name="com.esisa.jee.jdbc.Database"/>
+<fullyQualifiedTypeName name="com.esisa.jee.dao.DocumentDao"/>
+<fullyQualifiedTypeName name="com.esisa.jee.dao.DocumentDaoJdbc"/>
+<fullyQualifiedTypeName name="com.esisa.jee.web.business.DocumentService"/>
+<fullyQualifiedTypeName name="com.esisa.jee.web.business.DocumentServiceefault"/>
+<fullyQualifiedTypeName name="com.esisa.jee.jdbc.MYSQLDataSource"/>
+</qualifiedTypeNameHistroy>

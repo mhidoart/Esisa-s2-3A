@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navigation Bar - Responsive</title>
+    <link rel = "stylesheet" type="text/css" href = "css/Component.css" />
+    <link rel="stylesheet" href="css/mhidocss.css" type="text/css">
+        <link rel="stylesheet" href="css/MyForms.css" type="text/css">
+    <script type="text/javascript" src="js/Stock.js"></script>
+	<script type="text/javascript" src="js/Entreprise.js"></script>
+	<script type="text/javascript" src="js/Actions.js"></script>
+	<script type="text/javascript" src="js/View.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script type="text/javascript">
+    function main() {
+		menu = new Menu('stock');	
+    }
+    
+    </script>
+</head>
+
+<body onload="main()">
+
+    <header>
+        <div class="nav-wrapper">
+          
+            <nav>
+                <input class="hidden" type="checkbox" id="menuToggle">
+                <label class="menu-btn" for="menuToggle"> 
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                </label>
+                <div class="nav-container">
+                    <ul class="nav-tabs">
+                        <li class="nav-tab" onclick="menu.show('stock')" >Home</li>
+                        <li class="nav-tab" onclick="menu.show('Add-ets')">Add Products</li>
+                        <li class="nav-tab">List by id</li>
+                        <li class="nav-tab">List by nom</li>
+                        <li class="nav-tab">list by xi haju</li>
+                        <li class="nav-tab">Careers</li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="center"> 
+        
+		<div class="Ttbody Hidden" id="Add-ets">
+			<form>
+				<input type="text" name="id_ets"  placeholder="id entreprise" id="id_ets">
+				<input type="text" name="nom_ets" placeholder="nom d'entreprise" id="nom_ets" > 
+					<input type="text" name="ville_ets" placeholder="ville" id="ville_ets">
+					<div class="ButtonPanel">
+			<input type="button" value="Valdier" onclick="AddEntreprise()">
+			<span>Annuler</span>
+			
+		</div>				
+			</form>
+			
+		</div>
+		
+		<div class="min_win Hidden" id="stock">
+		<header>Stock</header>
+		
+		<div class="Table">
+			<table  id="table-stock">
+				<tr>
+					<th>ID</th>	<th>nom</th>	<th>ville</th> 
+				</tr>
+			</table>
+		</div>
+		</div>
+	</div> 
+    
+
+    
+</body>
+
+</html>

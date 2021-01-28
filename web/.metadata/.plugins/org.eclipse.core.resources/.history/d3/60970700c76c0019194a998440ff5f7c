@@ -1,0 +1,11 @@
+var counter=0;
+
+function addStockRow(p) {
+	var table=document.getElementById('ste_table');
+	var row = table.insertRow();
+	row.insertCell().innerHTML=p.id;
+	row.insertCell().innerHTML=p.nom;
+	row.insertCell().innerHTML=p.ville;
+
+
+}

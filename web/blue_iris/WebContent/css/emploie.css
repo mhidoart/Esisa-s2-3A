@@ -1,0 +1,52 @@
+.schedule_header>* {
+	min-width: 100px;
+	font-weight: bold;
+	color: blue;
+	font-family: Verdana;
+	font-size: 16px;
+}
+
+.tr1  tr>* {
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.table1 table {
+	border: solid 1px black;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px gray;
+}
+
+.table2 table {
+	border-radius: 10px;
+	background: #333;
+	padding: 5px;
+	color: #fff;
+	font-family: Helvetica;
+	font-size: 18;
+	text-align: center;
+}
+
+.table3 table {
+	text-align: center;
+	text-shadow: 2px 3px #d5d2d3;
+	border-radius: 10px;
+	background: #ffffff;
+	padding: 5px;
+	color: #ff040b;
+	font-family: cursive;
+	font-size: 18;
+	text-align: center;
+}
+
+.table4 table>* {
+	border-right: 5px solid red;
+	empty-cells: hide;
+	padding: 5px;
+	font-family: cursive;
+	font-size: 18;
+	text-align: center;
+}

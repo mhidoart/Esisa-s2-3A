@@ -1,0 +1,7 @@
+function Biblio(titre, ...livres) {
+	this.titre=titre;
+	this.livres=livres;
+
+}
+
+var biblio=new Biblio();

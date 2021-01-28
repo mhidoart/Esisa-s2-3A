@@ -1,0 +1,40 @@
+function Stock() {
+	this.Entrprise = [];
+	this.EntrpriseParId = [];//tableau associative
+	this.EntrpriseParnom = [];//tableau associative
+	this.EntrpriseParville = [];//tableau associative
+
+}
+
+Stock.prototype.add = function(p) {
+	if(this.EntrpriseParId[p.id] == undefined){
+		this.Entrprise.push(p);
+		this.EntrpriseParId[p.id] = p;
+		this.EntrpriseParnom[p.nom]=p;
+		this.EntrpriseParville[p.ville]=p;
+		return true;
+	}
+	else{
+		alert("Entreprise déja exist");
+		return false;
+	}
+}
+
+Stock.prototype.get = function(index) {
+	return this.Entrprise[index];
+}
+
+Stock.prototype.getById = function(id) {
+	return this.EntrpriseParId[id];
+}
+Stock.prototype.getByNom = function(nom) {
+	return this.EntrpriseParnom[nom];
+}
+Stock.prototype.getByVille = function(ville) {
+	return this.EntrpriseParville[ville];
+}
+Stock.prototype.size = function() {
+	return this.Entrprise.length;
+}
+
+var stock = new Stock();

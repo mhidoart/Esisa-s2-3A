@@ -1,0 +1,96 @@
+12-Mar-2019 13:21:47.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M11
+12-Mar-2019 13:21:47.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2016 18:54:10 UTC
+12-Mar-2019 13:21:47.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+12-Mar-2019 13:21:47.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+12-Mar-2019 13:21:47.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+12-Mar-2019 13:21:47.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Mar-2019 13:21:47.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-10.0.2
+12-Mar-2019 13:21:47.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.2+13
+12-Mar-2019 13:21:47.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            "Oracle Corporation"
+12-Mar-2019 13:21:47.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11
+12-Mar-2019 13:21:47.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11
+12-Mar-2019 13:21:47.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Mar-2019 13:21:47.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Mar-2019 13:21:48.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\conf\logging.properties
+12-Mar-2019 13:21:48.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Mar-2019 13:21:48.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11
+12-Mar-2019 13:21:48.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11
+12-Mar-2019 13:21:48.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\temp
+12-Mar-2019 13:21:48.002 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk-10.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\binaries\php\php_runningversion;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Addinsoft\XLSTAT2011;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;c:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Git\cmd;C:\Users\zrs\AppData\Roaming\npm;C:\Users\zrs\AppData\Local\atom\bin;C:\Users\zrs\AppData\Local\Microsoft\WindowsApps;;C:\Users\zrs\AppData\Local\Programs\Microsoft VS Code\bin;.
+12-Mar-2019 13:21:48.199 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Mar-2019 13:21:48.930 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Mar-2019 13:21:48.944 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+12-Mar-2019 13:21:48.970 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Mar-2019 13:21:48.972 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2496 ms
+12-Mar-2019 13:21:49.250 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+12-Mar-2019 13:21:49.254 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M11
+12-Mar-2019 13:21:49.294 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\docs
+12-Mar-2019 13:21:50.130 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [237] milliseconds.
+12-Mar-2019 13:21:50.179 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\docs has finished in 885 ms
+12-Mar-2019 13:21:50.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\examples
+12-Mar-2019 13:21:50.887 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\examples has finished in 707 ms
+12-Mar-2019 13:21:50.888 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\host-manager
+12-Mar-2019 13:21:50.935 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\host-manager has finished in 47 ms
+12-Mar-2019 13:21:50.936 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\manager
+12-Mar-2019 13:21:50.994 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\manager has finished in 58 ms
+12-Mar-2019 13:21:50.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\ROOT
+12-Mar-2019 13:21:51.042 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\ROOT has finished in 47 ms
+12-Mar-2019 13:21:51.049 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+12-Mar-2019 13:21:51.070 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+12-Mar-2019 13:21:51.076 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2093 ms
+12-Mar-2019 13:26:52.126 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Mar-2019 13:26:52.301 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+12-Mar-2019 13:26:52.362 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+12-Mar-2019 13:26:52.749 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Mar-2019 13:26:52.807 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+12-Mar-2019 13:26:52.839 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Mar-2019 13:26:52.857 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+12-Mar-2019 14:19:21.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M11
+12-Mar-2019 14:19:21.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2016 18:54:10 UTC
+12-Mar-2019 14:19:21.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+12-Mar-2019 14:19:21.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+12-Mar-2019 14:19:21.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+12-Mar-2019 14:19:21.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Mar-2019 14:19:21.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-10.0.2
+12-Mar-2019 14:19:21.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.2+13
+12-Mar-2019 14:19:21.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            "Oracle Corporation"
+12-Mar-2019 14:19:21.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11
+12-Mar-2019 14:19:21.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11
+12-Mar-2019 14:19:21.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Mar-2019 14:19:21.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Mar-2019 14:19:21.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\conf\logging.properties
+12-Mar-2019 14:19:21.420 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Mar-2019 14:19:21.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11
+12-Mar-2019 14:19:21.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11
+12-Mar-2019 14:19:21.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\temp
+12-Mar-2019 14:19:21.424 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk-10.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\binaries\php\php_runningversion;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Addinsoft\XLSTAT2011;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 & MySQL Utilities 1.5\Doctrine extensions for PHP\;c:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Git\cmd;C:\Users\zrs\AppData\Roaming\npm;C:\Users\zrs\AppData\Local\atom\bin;C:\Users\zrs\AppData\Local\Microsoft\WindowsApps;;C:\Users\zrs\AppData\Local\Programs\Microsoft VS Code\bin;.
+12-Mar-2019 14:19:21.499 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Mar-2019 14:19:21.760 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Mar-2019 14:19:21.763 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+12-Mar-2019 14:19:21.768 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Mar-2019 14:19:21.769 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 982 ms
+12-Mar-2019 14:19:21.847 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+12-Mar-2019 14:19:21.847 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M11
+12-Mar-2019 14:19:21.866 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\docs
+12-Mar-2019 14:19:22.497 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [220] milliseconds.
+12-Mar-2019 14:19:22.525 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\docs has finished in 659 ms
+12-Mar-2019 14:19:22.526 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\examples
+12-Mar-2019 14:19:23.041 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\examples has finished in 514 ms
+12-Mar-2019 14:19:23.041 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\host-manager
+12-Mar-2019 14:19:23.089 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\host-manager has finished in 48 ms
+12-Mar-2019 14:19:23.090 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\manager
+12-Mar-2019 14:19:23.137 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\manager has finished in 46 ms
+12-Mar-2019 14:19:23.137 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\ROOT
+12-Mar-2019 14:19:23.176 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\ROOT has finished in 39 ms
+12-Mar-2019 14:19:23.186 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+12-Mar-2019 14:19:23.199 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+12-Mar-2019 14:19:23.208 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1439 ms
+12-Mar-2019 14:21:53.224 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\p01.war
+12-Mar-2019 14:21:53.341 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive D:\Divers\esisa\3eme annee\java s2\apache-tomcat-9.0.0.M11\webapps\p01.war has finished in 117 ms
+12-Mar-2019 14:55:04.434 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Mar-2019 14:55:04.490 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+12-Mar-2019 14:55:04.542 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+12-Mar-2019 14:55:04.602 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Mar-2019 14:55:04.609 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+12-Mar-2019 14:55:04.612 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Mar-2019 14:55:04.615 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

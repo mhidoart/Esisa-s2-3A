@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	<link rel = "stylesheet" type="text/css" href = "css/Component.css" />
+	<script type="text/javascript" src="js/Ste.js"></script>
+	<script type="text/javascript" src="js/Stock.js"></script>
+	<script type="text/javascript" src="js/Actions.js"></script>
+	<script type="text/javascript" src="js/View.js"></script>
+	
+	<script type="text/javascript">
+		function main() {
+			menu = new Menu('stock');	
+			ajouterSte(new Ste("R01","ritu","fes"));
+			ajouterSte(new Ste("R02","bano","lfkih bn saleh"));
+			ajouterSte(new Ste("R03","midu","elmenzel"));
+			
+			var d1 = new Date();
+			setValue("ventes-date", d1.getFullYear() + "-0" + (d1.getMonth() + 1) + "-" + d1.getDate());
+		}
+	</script>
+	
+</head>
+<body onload="main()">
+	<div class="Menu">
+		<span onclick="menu.show('nouveau-Ste')">Nouveau produit</span>
+		<span onclick="menu.show('stock')">Stock</span>
+		<span onclick="menu.show('vente')">Ventes</span>
+		<span onclick="menu.show('Datuu')">Data</span>
+	</div>
+	
+	<form class="Form Hidden" id="nouveau-Ste">
+		<header>Nouveau Ste</header>
+		<div class="Field">
+			<label for="id">Réference:</label>
+			<input type="text" size="15" name="id" id="id"/>
+		</div>
+		
+		<div class="Field">
+			<label for="id">Nom:</label>
+			<input type="text" size="30" name="id" id="nom"/>
+		</div>
+		
+		<div class="Field">
+			<label for="id">Ville:</label>
+			<input type="text" size="10" name="id" id="ville"/>
+		</div>
+		
+		
+		
+		<div class="ButtonPanel">
+			<input type="button" value="Valdier" onclick="ajouterSte()">
+			<span>Annuler</span>
+			
+		</div>
+	</form>
+	
+	<div class="Panel Hidden" id="vente">
+		<header>Ventes</header>
+		
+		<div>
+			Date : <input type="date" id="ventes-date">
+			Client : <input type="text" size="30">
+			<button class="Button" onclick="addTextBox()">Ajouter Produit</button>
+			<div id="ventes-produits">
+				<div class="TextBox">
+					<input type="text" id="ventes-ref-0" onkeyup="chercherSte(0)"
+						placeholder="Référence Produit" />
+					<div id="ventes-desig-0"></div>
+					<div id="ventes-pu-0"></div>
+					<input type="text" id="ventes-q-0" placeholder="Quantité" />
+				</div>
+			</div>
+			<div class="Table">
+			<table  id="table-s">
+				<tr>
+					<th>id</th>	<th>Nom</th>	<th>Ville</th>
+				</tr>
+			</table>
+		</div>
+			
+			 
+		</div>		
+	</div>
+	<div class="Panel Hidden" id="Data">
+		<header>Ventes</header>
+		
+		
+		</div>		
+	</div>
+	<div class="Panel" id="stock">
+		<header>Stock</header>
+		
+		<div class="Table">
+			<table  id="table-stock">
+				<tr>
+					<th>id</th>	<th>Nom</th>	<th>Ville</th>
+				</tr>
+			</table>
+		</div>
+		
+	</div>
+	
+	<div class="Panel Hidden" id="Datuu">
+		<header>Factures</header>
+		
+		<div>
+			<header>Stock</header>
+		
+		<div class="Table">
+			<table  id="table-s">
+				<tr>
+					<th>id</th>	<th>Nom</th>	<th>Ville</th>
+				</tr>
+			</table>
+		</div>
+		</div>
+		
+	</div>
+	
+	
+</body>
+</html>

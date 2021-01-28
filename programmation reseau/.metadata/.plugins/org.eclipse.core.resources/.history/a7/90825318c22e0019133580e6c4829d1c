@@ -1,0 +1,25 @@
+package com.esisa.java.jdbc.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+
+public class Database {
+	private String driver ="com.mysql.jdbc.Driver";
+	private String bridge="jdbc:mysql:";
+	private Connection db;
+	public Database(String host,String source,String user,String password) {
+		try {
+			//1-charger les drivers
+			Class.forName(driver);
+			//2-construction de l'URL
+			String url=bridge + "//" +host +"/" + source;
+			//3-connection
+			db=DriverManager.getConnection(url, user,password);
+			System.out.println("connection bien etablie .......!");
+		} catch (Exception e) {
+			System.out.println("erreur : " + e.getMessage());
+		}
+	}
+
+}

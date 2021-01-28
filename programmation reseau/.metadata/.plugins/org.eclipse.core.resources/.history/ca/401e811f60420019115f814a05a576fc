@@ -1,0 +1,43 @@
+package com.santa.server.gssss;
+
+import java.net.ServerSocket;
+
+public class Server extends Thread {
+	private int port=80;
+	public Server() {
+		// TODO Auto-generated constructor stub
+	}
+	public Server(int port) {
+		super();
+		this.port = port;
+	}
+	@Override
+	public void run() {
+		try {
+			System.out.println("serveur encour de demarage !!!");
+			ServerSocket socket = new ServerSocket(port);
+			System.out.println("serveur demaree et encours d'ecout !!!");
+
+			socket.accept();
+			
+			
+			
+		} catch (Exception e) {
+			System.out.println("erreur de serveur !! ");
+		}
+		System.out.println("server shutting down . :( ");
+		
+	}
+	public int getPort() {
+		return port;
+	}
+	public void setPort(int port) {
+		this.port = port;
+	}
+	public static void main(String[] args) {
+		Server s= new Server();
+		s.start();
+	}
+	
+
+}

@@ -1,0 +1,3 @@
+INDEX VERSION 1.130+D:\Divers\esisa\3eme annee\java s2\newjee\.metadata\.plugins\org.eclipse.jdt.core
+1250314245.index
+3825164325.index

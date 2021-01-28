@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;p04-SPA-JS/WebContent/pic/circle-1.png&apos; to &apos;m.png&apos;" description="Rename resource &apos;circle-1.png&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/pic/circle-1.png" name="m.png" stamp="1557067463647" updateReferences="true"/>
+</session>

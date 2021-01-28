@@ -1,0 +1,9 @@
+package com.santa.server.gssss;
+
+public class Server extends Thread {
+	private int port=80;
+	public Server() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

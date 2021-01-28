@@ -1,0 +1,100 @@
+package com.esisa.java.jdbc.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSetMetaData;
+import java.sql.Statement;
+
+import com.mysql.jdbc.ResultSet;
+
+
+public class Database {
+	private DataSource ds;
+	private Connection db;
+	public Database(DataSource ds) {
+		// TODO Auto-generated constructor stub
+		this.ds=ds;
+		db=ds.getConnection();
+	}
+	public DataSource getDataSource() {
+		return ds;
+	}
+	public void setDataSource(DataSource ds) {
+		this.ds = ds;
+	}
+	/*
+	public Database(String host,String source,String user,String password) {
+		try {
+			//1-charger les drivers
+			Class.forName(driver);
+			//2-construction de l'URL
+			String url=bridge + "//" +host +"/" + source;
+			//3-connection
+			db=DriverManager.getConnection(url, user,password);
+			System.out.println("connection bien etablie .......!");
+
+			//select();
+
+		} catch (Exception e) {
+			System.out.println("erreur : " + e.getMessage());
+		}
+	}
+	 */
+	public void select() {
+		String request="SELECT * FROM authors WHERE year_born > 0";
+		try {
+			Statement sql =db.createStatement();
+			java.sql.ResultSet rs =sql.executeQuery(request);
+			while (rs.next()) {
+				System.out.println(rs.getString(2));
+			}
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Erreur : " + e.getMessage());
+		}
+
+	}
+	public String[][] select(String tableName) {
+		String request="SELECT * FROM "+ tableName;
+		return executeQuery(request);
+
+	}
+	public String[][] executeQuery(String request) {
+		try {
+			Statement sql =db.createStatement();
+			java.sql.ResultSet rs =sql.executeQuery(request);
+			ResultSetMetaData rsm=rs.getMetaData();
+			int n = rsm.getColumnCount();
+			rs.last();
+			int m=rs.getRow();
+			String data[][]= new String[m+1][n];
+			for (int i = 0; i < n; i++) {
+				data[0][i]=rsm.getColumnName(i+1);
+			}
+			rs.beforeFirst();
+			int row=0;
+			while (rs.next()) {
+				row++;
+				for (int i = 0; i < n; i++) {
+					data[row][i]=rs.getString(i+1);
+
+				}
+			}
+			return data;
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Erreur : " + e.getMessage());
+			return null;
+		}
+
+	}
+	public string[][] select(String tableName,String key, String value){
+		String request="SELECT * FROM " + tableName + " WHERE "+ key + "='" + value +"'";
+		return executeQuery(request);
+	}
+	public string[][] selectLike(String tableName,String key, String value){
+		String request="SELECT * FROM " + tableName + " WHERE "+ key + " LIKE '%" + value +"%'";
+		return executeQuery(request);
+	}
+}

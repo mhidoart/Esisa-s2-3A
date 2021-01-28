@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/Entreprise.js"></script>
+<script type="text/javascript" src="js/Actions.js"></script>
+<script type="text/javascript">
+	function main() {
+		menu=new Menu();
+	}
+
+</script>
+</head>
+<body onload="main()">
+	<div class="Menu">
+		<span onclick="menu.show('NouveauSte')">Nouveau ste</span>
+		<span onclick="menu.show('Stock')"">Stock</span>
+		<span onclick="menu.show('Vente')">Ventes</span>
+		<span onclick="menu.show('Facture')"">Factures</span>
+	</div>
+	<form  class="Form Hidden" id="NouveauSte">
+	
+	<header> Nouveau ste</header>
+	
+	<div class="Field">
+		<label for="ref">ref :</label>
+	<input type="text" size="15" name="id" id="ref" />
+	</div>
+	
+	<div class="Field">
+		<label for="desig">Désignation :</label>
+	<input type="text" size="30" name="id" id="desig" />
+	</div>
+	<div class="Field">
+		<label for="pu">prix unitaire :</label>
+	<input type="text" size="10" name="id" id="pu" />
+	</div>
+	<div class="Field">
+		<label for="qs">Quantite on stock :</label>
+	<input type="text" size="10" name="id" id="qs" />
+	</div>
+	
+	
+	<div class="ButtonPanel" >
+		<input type="button" value="Valider" onclick="ajouterProduit()"/>
+		<button>Annuler</button>
+		</div>
+	</form>
+	<div class="Panel" id="Stock">
+		<header>Stock</header>
+		<div class="Table">
+		<table id="stock-table">
+			<tr>
+			<td>Réference</td><td>Désignation</td><td>Prix</td><td>Quantité</td>
+			</tr>
+		</table>
+		</div>
+	</div>
+	<div class="Panel Hidden" id="Vente">
+		<header>Vente</header>
+		<div>
+		Date: <input type="date" value="2019-03-15" id="Vente-date"/>
+		Client: <input type="text" size="30"/>
+		<button class="Button" onclick="addTextBox()">Ajouter Produit</button>
+		<div id="Vente-produits">
+		<div class="Textbox" >
+			<div id="Vente-desig-0"></div>
+			<div id="Vente-pu-0"></div>
+				<input type="text" size="10" id="Vente-ref-0" onkeyup="chercherProduit(0)" placeholder="ref du  produits"/>
+				<input type="text" size="10" id="Vente-q-0"  placeholder="Quantité"/>
+		
+		</div>
+		</div>
+		</div>
+	</div>
+	<div class="Panel Hidden" id="Facture">
+		<header>Facture</header>
+		<div>
+		
+		</div>
+	</div>
+	
+	
+</body>
+</html>

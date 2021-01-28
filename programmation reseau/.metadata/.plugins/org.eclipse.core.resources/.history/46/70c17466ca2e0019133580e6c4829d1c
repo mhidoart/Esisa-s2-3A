@@ -1,0 +1,17 @@
+package com.esisa.java.jdbc.dao;
+
+public class DataSource {
+	private String driver;
+	private String bridge;
+	private String source;
+	private String host;
+	private String user;
+	private String password;
+	
+
+	
+	public DataSource() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

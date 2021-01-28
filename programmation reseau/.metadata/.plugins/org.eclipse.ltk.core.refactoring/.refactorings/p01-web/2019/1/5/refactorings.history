@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.esisa.java.web&apos; to &apos;TP_modeconnecter/src&apos;&#x0D;&#x0A;- Original project: &apos;p01-web&apos;&#x0D;&#x0A;- Destination element: &apos;TP_modeconnecter/src&apos;&#x0D;&#x0A;- Original element: &apos;p01-web/src/com.esisa.java.web&apos;" description="Copy package" destination="=TP_modeconnecter/src" element1="/src&lt;com.esisa.java.web" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1548858341761" version="1.0"/>
+</session>

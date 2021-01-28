@@ -1,0 +1,9 @@
+package com.esisa.java.jdbc.dao;
+
+public class DataSource {
+
+	public DataSource() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

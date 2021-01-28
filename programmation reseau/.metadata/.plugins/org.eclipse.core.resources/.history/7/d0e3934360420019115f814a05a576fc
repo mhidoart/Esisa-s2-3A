@@ -1,0 +1,12 @@
+package com.santa.server.gssss;
+
+import java.net.Socket;
+
+public class Worker extends Thread {
+	private Socket socket;
+	
+	public Worker() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

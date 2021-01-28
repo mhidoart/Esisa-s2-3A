@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;p02-CV/WebContent/css/CV.css&apos; to &apos;CV-1.css&apos;" description="Rename resource &apos;CV.css&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/css/CV.css" name="CV-1.css" stamp="1550819058712" updateReferences="true"/>
+</session>

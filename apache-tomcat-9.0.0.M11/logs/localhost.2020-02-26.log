@@ -1,0 +1,8 @@
+26-Feb-2020 11:06:00.064 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Feb-2020 11:06:00.064 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Feb-2020 11:20:34.146 INFO [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+26-Feb-2020 11:20:34.146 INFO [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+26-Feb-2020 11:20:54.272 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Feb-2020 11:20:54.273 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Feb-2020 11:37:16.300 INFO [localhost-startStop-5] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+26-Feb-2020 11:37:16.300 INFO [localhost-startStop-5] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

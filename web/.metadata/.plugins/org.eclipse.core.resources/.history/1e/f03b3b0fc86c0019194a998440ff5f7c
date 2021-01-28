@@ -1,0 +1,32 @@
+function Menu(currentID) {
+	this.current=document.getElementById(currentID)
+}
+
+Menu.prototype.show=function (id) {
+	this.current.style.display="none";
+	this.current=document.getElementById(id)
+	this.current.style["display"]="block";
+}
+var menu;
+function value(id){
+	return document.getElementById(id).value;	
+
+}
+function setValue(id,value){
+	document.getElementById(id).value=value;	
+
+}
+var menu;
+
+function ajoute_ste(ste) {
+	if(ste==undefined){
+		alert("rani hna");
+		ste= new Actions(value("id_ste"),value("nom"),value("ville"));
+		addSteRow(ste);
+		alert("rani 1");
+
+	}
+	if(Actions.add(ste)){
+		addSteRow(ste);
+	}
+}

@@ -1,0 +1,76 @@
+package com.santa.server.gssss;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.UnknownHostException;
+import java.util.Scanner;
+
+import javax.swing.plaf.synth.SynthSpinnerUI;
+import javax.xml.stream.util.StreamReaderDelegate;
+
+public class Client {
+	private String nom;
+	private InputStream inputStream;
+	private InputStreamReader inputStreamReader;
+	private BufferedReader bufferedReader;
+	
+	private OutputStream out;
+	private PrintWriter printWriter;
+	public Client() {
+		// TODO Auto-generated constructor stub
+	}
+	public Client(String nom) {
+		super();
+		this.nom = nom;
+	}
+
+	public void connect_and_chat() {
+		try{
+			//InetAddress.getLocalHost()
+			Socket socket = new Socket("127.0.0.1", 80);
+			
+			InputStream inputStream = socket.getInputStream();
+			InputStreamReader reader = new InputStreamReader(inputStream);
+			BufferedReader  bufferedReader = new BufferedReader(reader);
+			System.out.println("Serveur:"+bufferedReader.readLine());
+			
+			Scanner sc = new Scanner(System.in);
+			OutputStream out = socket.getOutputStream();
+			PrintWriter writer = new PrintWriter(out);
+			writer.println(sc.nextLine());
+			writer.flush();
+
+		
+			do {
+				System.out.println("Serveur:"+bufferedReader.readLine());
+				sc = new Scanner(System.in);
+				writer.println(sc.nextLine());
+				writer.flush();
+				
+			} while (true);
+			//socket.close();
+
+			
+		}
+		catch(Exception e){System.out.println("Erreur sur :"+e.getMessage());}
+	}
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+public static void main(String[] args) {
+	Client a =new Client("hamid");
+	a.connect_and_chat();
+	}
+
+}

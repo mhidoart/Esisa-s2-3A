@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.esisa.stock.duisiness&apos; to &apos;com.esisa.stock.business&apos;&#x0D;&#x0A;- Original project: &apos;p02-JDBC&apos;&#x0D;&#x0A;- Original element: &apos;p02-JDBC/src/com.esisa.stock.duisiness&apos;&#x0D;&#x0A;- Renamed element: &apos;p02-JDBC/src/com.esisa.stock.business&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.esisa.stock.duisiness&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.esisa.stock.duisiness" name="com.esisa.stock.business" qualified="false" references="true" stamp="1550581187391" textual="false" version="1.0"/>
+</session>

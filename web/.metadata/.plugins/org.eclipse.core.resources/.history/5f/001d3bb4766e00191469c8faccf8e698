@@ -1,0 +1,45 @@
+function Stock() {
+	this.ste = [];
+	this.steParRef = [];//tableau associative
+	this.steParNom = []
+	this.steParVille = []
+}
+
+Stock.prototype.add = function(p) {
+	if(this.steParRef[p.id] == undefined){
+		this.ste.push(p);
+		this.steParRef[p.id] = p;
+		this.steParNom[p.nom]=p;
+		this.steParVille[p.ville]=p;
+		return true;
+	}
+	else{
+		alert("Ste déja exist");
+		return false;
+	}
+}
+
+Stock.prototype.get = function(index) {
+	return this.ste[index];
+}
+
+Stock.prototype.RechercheMulti = function(ref) {
+	var tz;
+	if((this.steParRef[ref])!= undefined){
+		tz=this.steParRef[ref];
+	}
+	else if((this.steParNom[ref])!=undefined ){
+		tz=this.steParNom[ref];
+	}
+	else if((this.steParVille[ref])!= undefined){
+		tz=this.steParVille[ref];
+	}
+	
+	return tz ;
+}
+
+Stock.prototype.size = function() {
+	return this.ste.length;
+}
+
+var stock = new Stock();

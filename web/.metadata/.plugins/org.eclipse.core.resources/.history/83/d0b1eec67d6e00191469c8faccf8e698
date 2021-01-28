@@ -1,0 +1,9 @@
+function Biblio(titre, ...livres) {
+	this.titre=titre;
+	this.livres=livres;
+
+}
+Biblio.prototype.AjouterLivre=function(){
+	
+}
+var biblio=new Biblio();

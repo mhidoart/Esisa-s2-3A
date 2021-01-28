@@ -1,0 +1,111 @@
+.LeNomDeLaClasse{  /* Monsieur chenfour*/}
+.le-nom-de-la-classe{/* plus utiliser generalement*/}
+.cv{
+	border: solid 1px buttonface;
+	margin: 20px 50px 20px 50px;
+	min-height: 3508px;
+	
+	padding: 30px;
+}
+/**************************************************************************************************************/
+.formation, .technos,.experience, .langues, .divers{
+	border: solid 1px rgb(46,116,181);
+	min-height: 200px;
+	display: block;
+	margin-top: 40px;
+}
+.perso{
+	display: flex;
+	flex-direction: row;
+}
+.info{
+	flex-grow: 4;
+	border: dashed 1px gray;
+	padding: 20px;
+}
+.info > div > div{
+	display: inline-block;
+	font-family: cursive;
+}
+.info > div > div:first-child{
+	color: navy;
+	width:  10%;
+}
+.info > div > div:nth-child(2){
+	font-weight: bold;
+}
+
+.label{
+	
+}
+.value{
+	
+}
+.photo{
+	
+	flex-grow: 1;
+	border: dashed 1px gray;
+	/*display: flex;
+	justify-content: flex-end;
+	*/
+}
+.photo > img{
+	
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 200px;
+	width: 150px;
+}
+/**************************************************************************************************************/
+.formation{
+	
+}
+ header{
+ border: solid 3px rgb(46,116,181);
+ border-radius: 5px;
+ margin-left: 50px;
+ padding: 10px;
+	width: 70%;
+	color: rgb(46,116,181);
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 14px;
+	text-shadow: 1px 1px gray;
+	position: relative;
+	top: -20px;
+	background-color: white;
+}
+.technos{
+	
+}
+.technos > div{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+.technos > div > div{
+	display: inline-block;
+	font-family: cursive;
+	font-size: 14px;
+}
+.technos > div > div:first-child{
+	width: 20%;
+	color: navy;
+	font-weight: bold;
+	vertical-align: top;
+}
+.technos > div > div:nth-child(2){
+	width: 65%;
+	font-style: italic;
+	text-align: justify;
+}
+.experiense{
+	
+}
+.langues{
+	
+}
+.divers{
+	
+}

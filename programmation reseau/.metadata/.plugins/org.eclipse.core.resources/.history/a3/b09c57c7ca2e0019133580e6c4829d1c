@@ -1,0 +1,28 @@
+package com.esisa.java.jdbc.dao;
+
+import java.sql.Connection;
+
+public class MYSQLDataSource extends DataSource {
+	public static final String MYSQL_DRIVER ="com.mysql.jdbc.Driver";
+	public static final String MYSQL_BRIDGE="jdbc:mysql:";
+	public MYSQLDataSource(String host,String source,String Username,String password) {
+		super(MYSQL_DRIVER,MYSQL_BRIDGE+"//" + host + "/" + source, Username, password);
+	}
+	public MYSQLDataSource(String source,String Username,String password) {
+		super(MYSQL_DRIVER,MYSQL_BRIDGE+"//localhost/" + source, Username, password);
+	}
+	public MYSQLDataSource(String source,String Username) {
+		super(MYSQL_DRIVER,MYSQL_BRIDGE+"//localhost/" + source, Username, "");
+	}
+	public MYSQLDataSource(String source ) {
+		super(MYSQL_DRIVER,MYSQL_BRIDGE+"//localhost/" + source, "root", "");
+	}
+	
+
+	@Override
+	public Connection getConnection() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

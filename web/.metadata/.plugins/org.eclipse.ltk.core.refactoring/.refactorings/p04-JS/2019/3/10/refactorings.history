@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;p04-JS/WebContent/css/Componement.css&apos; to &apos;Component.css&apos;" description="Rename resource &apos;Componement.css&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/css/Componement.css" name="Component.css" stamp="1552028092906" updateReferences="true"/>
+</session>

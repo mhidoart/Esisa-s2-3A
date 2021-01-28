@@ -1,0 +1,42 @@
+[2019-04-02 14:51:39.957] [exthost1] [info] extension host started
+[2019-04-02 14:51:40.383] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:40.384] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\zrs\.codemix\engine\resources\app\extensions\debug-auto-launch\out\extension
+[2019-04-02 14:51:40.609] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:40.609] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\zrs\.codemix\engine\resources\app\extensions\emmet\dist\extension
+[2019-04-02 14:51:41.013] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:41.013] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\zrs\.codemix\engine\resources\app\extensions\merge-conflict\out\extension
+[2019-04-02 14:51:41.187] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:41.190] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\zrs\.codemix\engine\resources\app\extensions\search-rg\out\extension
+[2019-04-02 14:51:41.292] [exthost1] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:41.293] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\zrs\.codemix\extensions\christian-kohler.path-intellisense-1.4.2\out\src\extension
+[2019-04-02 14:51:41.439] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:41.439] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\zrs\.codemix\extensions\dbaeumer.vscode-eslint-1.4.10\client\out\extension
+[2019-04-02 14:51:42.062] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:42.062] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\zrs\.codemix\extensions\formulahendry.auto-close-tag-0.5.6\out\src\extension
+[2019-04-02 14:51:42.072] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:42.072] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\zrs\.codemix\extensions\formulahendry.auto-rename-tag-0.0.15\out\src\extension
+[2019-04-02 14:51:42.098] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:42.098] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\zrs\.codemix\extensions\zignd.html-css-class-completion-1.18.0\out\src\extension
+[2019-04-02 14:51:52.464] [exthost1] [info] extension host started
+[2019-04-02 14:51:52.740] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:52.740] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\zrs\.codemix\engine\resources\app\extensions\debug-auto-launch\out\extension
+[2019-04-02 14:51:52.821] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:52.821] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\zrs\.codemix\engine\resources\app\extensions\emmet\dist\extension
+[2019-04-02 14:51:53.262] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:53.263] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\zrs\.codemix\engine\resources\app\extensions\merge-conflict\out\extension
+[2019-04-02 14:51:53.404] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:53.404] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\zrs\.codemix\engine\resources\app\extensions\search-rg\out\extension
+[2019-04-02 14:51:53.479] [exthost1] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:53.479] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\zrs\.codemix\extensions\christian-kohler.path-intellisense-1.4.2\out\src\extension
+[2019-04-02 14:51:53.668] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:53.669] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\zrs\.codemix\extensions\dbaeumer.vscode-eslint-1.4.10\client\out\extension
+[2019-04-02 14:51:54.635] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:54.635] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\zrs\.codemix\extensions\formulahendry.auto-close-tag-0.5.6\out\src\extension
+[2019-04-02 14:51:54.647] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:54.647] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\zrs\.codemix\extensions\formulahendry.auto-rename-tag-0.0.15\out\src\extension
+[2019-04-02 14:51:54.666] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2019-04-02 14:51:54.667] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\zrs\.codemix\extensions\zignd.html-css-class-completion-1.18.0\out\src\extension
+[2019-04-02 14:51:59.450] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-04-02 14:51:59.450] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\zrs\.codemix\engine\resources\app\extensions\configuration-editing\out\extension
+[2019-04-02 14:51:59.597] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-04-02 14:51:59.597] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\zrs\.codemix\engine\resources\app\extensions\json-language-features\client\dist\jsonMain
